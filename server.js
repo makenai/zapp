@@ -12,7 +12,7 @@ var express = require('express'),
 API_KEY = 'a24b50f373803eb6b205cf89eee94df8e427ef49'
     
 // Image proxy thing    
-app.get('/image/:styleId-:type-:recipe', function(req, res){
+app.get('/img/:styleId-:type-:recipe', function(req, res){
 
   var uri = {
     host: 'api.zappos.com',
