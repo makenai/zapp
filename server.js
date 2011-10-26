@@ -37,5 +37,5 @@ app.get('/image/:styleId-:type-:recipe', function(req, res){
 
 });
 
-app.listen(8080);
+app.listen(80);
 console.log('Express server started on port %s', app.address().port);
